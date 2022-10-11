@@ -1,0 +1,143 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.logo-docplanner{
+    width: 600px;
+    height:30px;
+    padding: 12px;
+    margin-left: -50px;
+}
+header{
+    display: flex;
+    justify-content:space-around;
+    position: fixed;
+    background-color: white;
+    padding: 0;
+    margin-top: -30px;
+    margin-left: 20px;
+}
+header ul{
+    display: flex;
+    align-items: flex-end;
+    margin-left: 300px;
+    margin-right: 0px;
+}
+header ul li{
+    list-style-type: none;
+    padding: 8px;
+}
+.menu-item{
+    text-decoration: none;
+    color: #ababab;
+}
+.menu-item-about{
+    color: #00b39b;
+}
+.menu-item:hover{
+    color: #00b39b;
+}
+.lead__logo{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    padding-top: 60px;
+
+}
+main h1{
+    text-align: center;
+    color: #00b39b;
+}
+.intro-p{
+ display: flex;
+ justify-content: space-between;   
+ margin: 150px;
+ margin-bottom: 50px;
+ margin-top: 50px;
+ text-decoration: solid;
+ color: #7e7e7e;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropdown{
+    display:none;
+    flex-direction: column;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.menu-item-drop:hover + .dropdown{
+    display: flex;
+
+}
+.dropdown:hover{
+    display: flex;
+}
+.dropdown li{
+    list-style-type:none;
+    list-style-position: inside;
+    align-content: flex-start;
+}
+.grid{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px ;
+    margin: 30px;
+    text-align:center;
+
+}
+.services__item{
+color: white;
+width:min-content;
+border-radius: 10px;
+padding: 2em 2em 0;
+overflow: hidden;
+height: 400px;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+
+}
+.services__item--marketplace{
+    background-color:#00b39b;
+}
+.services__item--saas{
+    background-color: rgb(0, 153, 255);
+}
+.services__item--clinics{
+    background-color: black;
+}
+.services h1{
+    color: white;
+}
+.services h2{
+    display: block;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.60em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+button, select{
+    text-transform: none;
+    border: transparent;
+    text-decoration: underline;
+    padding-bottom: 10px;
+    cursor:pointer;
+}
+button, input,optgroup,select,textarea{
+    color:white;
+    font: inherit;
+    margin: 0;
+    background: transparent;
+}
+.col-3 img{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: -5px;
+}
