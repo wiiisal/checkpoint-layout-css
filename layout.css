@@ -6,22 +6,21 @@
     width: 600px;
     height:30px;
     padding: 12px;
-    margin-left: -50px;
+    margin-left: 50px;
 }
 header{
     display: flex;
     justify-content:space-around;
     position: fixed;
     background-color: white;
-    padding: 0;
-    margin-top: -30px;
-    margin-left: 20px;
+    
+ top:0px;
+    width: 100vw;
 }
 header ul{
     display: flex;
     align-items: flex-end;
-    margin-left: 300px;
-    margin-right: 0px;
+
 }
 header ul li{
     list-style-type: none;
@@ -78,11 +77,12 @@ main h1{
 .dropdown:hover{
     display: flex;
 }
-.dropdown li{
+.caché{
     list-style-type:none;
-    list-style-position: inside;
     align-content: flex-start;
 }
+
+
 .grid{
     display: flex;
     justify-content: space-around;
@@ -93,7 +93,7 @@ main h1{
 }
 .services__item{
 color: white;
-width:min-content;
+width:320px;
 border-radius: 10px;
 padding: 2em 2em 0;
 overflow: hidden;
@@ -140,4 +140,92 @@ button, input,optgroup,select,textarea{
     display: flex;
     justify-content: flex-start;
     margin-top: -5px;
+}
+.thirdclass{
+    background-color: #5cd6b9;
+}
+.leftside h1{
+    color: #088a69;
+    display: block;
+    text-align: start;
+    padding-left: 50px;
+    padding-top: 20px;
+}
+.leftside p{
+    display:block;
+    text-align: start;
+    margin-left: 60px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.thirdclass img{
+    display: block;
+    height: 400px;
+    width: 700px;
+    border: none;
+    
+}
+.fourthsection{
+    background-color: white;
+    display: block;
+    justify-content: center;
+    padding-top: 30px;
+}
+.fourthsection p{
+    display: block;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+
+}
+.boxes{
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-between;
+    padding-top: 20px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+.boxes img{
+    width: 300px;
+    height: 300px;
+    border-radius: 30px;
+    padding-left: 15px;
+}
+
+
+.last{
+background-color: white;
+padding-top: 100px;
+}
+.last h3{
+    display: block;
+    text-align:center;
+    font-size:x-large;
+    margin-bottom: 50px;
+}
+.last button{
+    color: rgb(245, 245, 250);
+    background-color: rgb(57, 57, 215);
+    display: block;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    
+}
+
+.fin{
+    display: block;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+footer{    
+    border: 0.5px solid rgb(139, 148, 139);
+    padding: 0.1px;
 }
